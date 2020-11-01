@@ -5,3 +5,10 @@ git push origin dev:dev 推送内容到远端分支
 - 注：默认是从哪克隆的代码就会提交到哪，如果要指定分支的话使用上述命令
 - 第一个dev表示推送本地的dev分支，第二个dev表示推送到远端的dev分支（如果没有会自动创建）
 
+# django 创建项目命令
+django-admin startproject meiduo : 创建名为meiduo的工程
+python manage.py startapp user : 创建名为user的应用
+
+# 运行开发服务器
++ python manage.py runserver 默认运行8080端口
++ python manage.py runserver ip:port 指定ip和端口运行
